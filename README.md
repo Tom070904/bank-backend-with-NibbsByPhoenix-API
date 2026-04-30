@@ -70,8 +70,13 @@ Create a `.env` file with the following variables:
 ```
 NODE_ENV=development
 PORT=3000
-DATABASE_URL=mongodb://localhost:27017/newbb
+DATABASE_URL=mongodb://localhost:27017/bank
 JWT_SECRET=your_secret_key
+
+NIBSS_BASE_URL=https://nibssbyphoenix.onrender.com (/api/docs/)
+NIBSS_API_KEY=YOUR-NIBSS-API-KEY
+NIBSS_API_SECRET=YOURNIBSSAPISECRET
+NIBSS_TOKEN=YOUR-NIBSS-TOKEN
 ```
 
 ## Scripts
